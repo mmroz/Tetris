@@ -15,6 +15,10 @@
 		E4CB702F1CAAA73700862636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CB702D1CAAA73700862636 /* LaunchScreen.storyboard */; };
 		E4CB703A1CAAA73700862636 /* TetrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CB70391CAAA73700862636 /* TetrisTests.swift */; };
 		E4CB70451CAAA73700862636 /* TetrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CB70441CAAA73700862636 /* TetrisUITests.swift */; };
+		E4CB70531CAAA77300862636 /* TetrisBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CB70521CAAA77300862636 /* TetrisBoardView.swift */; };
+		E4CB70551CAAA78200862636 /* TetrisTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CB70541CAAA78200862636 /* TetrisTileView.swift */; };
+		E4CB70571CAAA7A100862636 /* TetrisPieces.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CB70561CAAA7A100862636 /* TetrisPieces.swift */; };
+		E4CB70591CAAA8A500862636 /* TetrisGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CB70581CAAA8A500862636 /* TetrisGameController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		E4CB70401CAAA73700862636 /* TetrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CB70441CAAA73700862636 /* TetrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisUITests.swift; sourceTree = "<group>"; };
 		E4CB70461CAAA73700862636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4CB70521CAAA77300862636 /* TetrisBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TetrisBoardView.swift; sourceTree = "<group>"; };
+		E4CB70541CAAA78200862636 /* TetrisTileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TetrisTileView.swift; sourceTree = "<group>"; };
+		E4CB70561CAAA7A100862636 /* TetrisPieces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TetrisPieces.swift; sourceTree = "<group>"; };
+		E4CB70581CAAA8A500862636 /* TetrisGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TetrisGameController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 			children = (
 				E4CB70211CAAA73700862636 /* AppDelegate.swift */,
 				E4CB70231CAAA73700862636 /* ViewController.swift */,
+				E4CB70521CAAA77300862636 /* TetrisBoardView.swift */,
+				E4CB70541CAAA78200862636 /* TetrisTileView.swift */,
+				E4CB70561CAAA7A100862636 /* TetrisPieces.swift */,
+				E4CB70581CAAA8A500862636 /* TetrisGameController.swift */,
 				E4CB70251CAAA73700862636 /* Main.storyboard */,
 				E4CB702B1CAAA73700862636 /* Assets.xcassets */,
 				E4CB702D1CAAA73700862636 /* LaunchScreen.storyboard */,
@@ -259,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4CB70591CAAA8A500862636 /* TetrisGameController.swift in Sources */,
 				E4CB702A1CAAA73700862636 /* Tetris.xcdatamodeld in Sources */,
+				E4CB70551CAAA78200862636 /* TetrisTileView.swift in Sources */,
 				E4CB70241CAAA73700862636 /* ViewController.swift in Sources */,
+				E4CB70531CAAA77300862636 /* TetrisBoardView.swift in Sources */,
 				E4CB70221CAAA73700862636 /* AppDelegate.swift in Sources */,
+				E4CB70571CAAA7A100862636 /* TetrisPieces.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +504,7 @@
 				E4CB704B1CAAA73700862636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4CB704C1CAAA73700862636 /* Build configuration list for PBXNativeTarget "TetrisTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +513,7 @@
 				E4CB704E1CAAA73700862636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4CB704F1CAAA73700862636 /* Build configuration list for PBXNativeTarget "TetrisUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +522,7 @@
 				E4CB70511CAAA73700862636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
